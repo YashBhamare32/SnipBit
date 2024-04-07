@@ -9,7 +9,7 @@ export function Topbar() {
     ];
 
     return (
-        <div className="flex justify-between items-center p-4 border-2 px-8">
+        <div className="flex justify-between items-center p-4  px-20">
             <div>
                 {navLinks.map((link, index) => (
                     <Link key={index} to={link.to} className={link.className}>{link.text}</Link>
@@ -17,7 +17,7 @@ export function Topbar() {
             </div>
             <div>
                 <Link to="/login" className="p-3 text-xl">Login</Link>
-                <Link to="/signup" className="p-3 text-xl text-white rounded-md bg-fuchsia-300">Signup</Link>
+                <Link to="/signup" className="p-3 text-xl px-4 rounded-md bg-teal-200">Signup</Link>
             </div>
         </div>
     );
