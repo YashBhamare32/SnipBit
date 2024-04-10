@@ -2,7 +2,7 @@ import { Link } from "react-router-dom";
 
 export function Topbar() {
     const navLinks = [
-        { to: "/", text: "SnapBit", className: "font-bold text-3xl p-3" },
+        { to: "/", text: "SnipBit", className: "font-bold text-3xl p-3" },
         { to: "/features", text: "Features", className: "p-3 text-xl" },
         { to: "/pricing", text: "Pricing", className: "p-3 text-xl" },
         { to: "/resources", text: "Resources", className: "p-3 text-xl" }
